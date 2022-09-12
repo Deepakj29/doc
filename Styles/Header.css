@@ -1,0 +1,34 @@
+.navbar{
+    width:100%;
+    background-color: darkorchid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.links{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.navbar a:hover{
+    background-color:aqua;
+    color:black;
+}
+
+@media only screen and (max-width:600px){
+    .links,.navbar{
+        flex-direction: column;
+    }
+}

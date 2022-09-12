@@ -1,0 +1,51 @@
+
+.hh{
+    background-color: rgb(27, 3, 44);
+    color: whitesmoke;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color:indigo;
+    row-gap: 10px;
+    
+}
+.add{
+    background-color:rgb(27, 3, 44);
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 40px;
+
+
+}
+.social{
+    background-color:gold;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 75px;
+    margin:20px;
+
+}
+.social>button{
+    background-color:gold;
+    margin: 10px;
+    border: 0px;
+   
+  
+   
+}
+
+@media only screen and (max-width:600px){
+    .box{
+        flex-direction: column;
+    }
+}
